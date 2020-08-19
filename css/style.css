@@ -25,6 +25,7 @@ body{
     text-transform: uppercase;
     outline: none;
     height: 65px;
+    max-width: 100%;
     width: 285px;
 }
 .container{
@@ -69,7 +70,7 @@ body{
 }
 .hero-subtitle{
     color: #FFBB01;
-    display: inline-block;
+    display: block;
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 14px;
@@ -81,6 +82,147 @@ body{
     margin-top: 0px;
     margin-bottom: 20px;
 }
+.section{
+    padding-bottom: 92px;
+    padding-top: 64px;
+}
+.section-title{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    margin: 0;
+    margin-bottom: 84px;
+}
 .social-link{
     margin-left: 20px;
 }
+.social-link:first-child{
+    margin-left: 0px;
+}
+
+/* features */
+.features{
+    background-color: #000;
+}
+.features-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.features-image{
+    display: block;
+    margin-bottom: 22px;
+}
+.features-item{
+    flex-basis: 30%;
+    margin-bottom: 63px;
+}
+.features-text{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+    margin: 0;
+}
+.features-title{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+/* features */
+
+/* contacts */
+.contacts{
+    background: linear-gradient(180.5deg, #000000 0.47%, rgba(0,0,0,0) 98.03%);
+}
+.contacts-block{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts-data{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+}
+.contacts-form{
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: -5px 5px 0px #FFC41D;
+    padding: 40px 35px 50px 35px;
+    max-width: 380px;
+}
+.contacts-link{
+    color: inherit;
+    text-decoration: none;
+}
+.contacts-link:hover{
+    text-decoration: underline;
+}
+.contacts-policy{
+    color: #A5A5A5;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 18px;
+    text-decoration-line: underline;
+    margin-top: 75px;
+}
+.contacts-phone, .contacts-mail{
+    flex-basis: 50%;
+    margin-bottom: 55px;
+}
+.contacts-text{
+    flex-basis: 50%;
+}
+.contact-title{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.contacts-social{
+    flex-basis: 100%;
+}
+.contacts-social .contacts-link{
+    margin-right: 40px;
+}
+.form-btn{
+    width: 100%;
+}
+.form-title{
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.input{
+    background: #F8F8F8;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 28px;
+    padding: 18px 20px;
+    padding-left: 50px;
+    width: 100%;
+}
+.input-name{
+    background-image: url('../img/user-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+    margin-bottom: 15px;
+}
+.input-phone{
+    background-image: url('../img/phone-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+    margin-bottom: 25px;
+}
+/* contacts */
