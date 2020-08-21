@@ -28,9 +28,16 @@ body{
     max-width: 100%;
     width: 285px;
 }
+.btn a{
+    color: #2E2E30;
+    display: block;
+    padding: 22px 0px;
+    text-decoration: none;
+}
 .container{
     margin: auto;
     max-width: 945px;
+    width: 90%;
 }
 .hero{
     background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
@@ -115,7 +122,7 @@ body{
 }
 .features-item{
     flex-basis: 30%;
-    margin-bottom: 63px;
+    margin-bottom: 64px;
 }
 .features-text{
     font-size: 16px;
@@ -167,6 +174,7 @@ body{
     align-items: flex-start;
     display: flex;
     justify-content: space-between;
+    margin-right: 10px;
 }
 .project-subtitle{
     font-size: 18px;
@@ -288,6 +296,7 @@ body{
     font-weight: normal;
     line-height: 28px;
     padding: 18px 20px;
+    outline: none;
     padding-left: 50px;
     width: 100%;
 }
@@ -304,3 +313,137 @@ body{
     margin-bottom: 25px;
 }
 /* contacts */
+
+/* responsive */
+@media (max-width: 1100px){
+    .hero-avatar{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 835px){
+    .contacts-block{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .contacts-form{
+        margin-bottom: 60px;
+    }
+    .hero-avatar{
+        margin-bottom: 20px;
+    }
+    .hero-content{
+        flex-flow: column-reverse;
+    }
+    .hero-description{
+        max-width: 505px;
+        text-align: center;
+    }
+    .hero-text{
+        text-align: center;
+    }
+    .features-item{
+        flex-basis: 45%;
+    }
+    .project-image{
+        margin-bottom: 45px;
+    }
+    .project-slide{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px){
+    .contacts-form{
+        padding: 30px 18px 40px 18px;
+    }
+    .contacts-social{
+        flex-basis: 49%;
+    }
+    .contacts-social .contacts-link{
+        display: block;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .contacts-policy{
+        margin-top: 30px;
+    }
+    .features-item{
+        flex-basis: 95%;
+        margin-bottom: 30px;
+    }
+    .features-text{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .features-title{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .form-title{
+        font-size: 15px;
+        line-height: 140%;
+    }
+    .hero-description{
+        font-size: 14px;
+        line-height: 140%;
+        max-width: 380px;
+    }
+    .hero-subtitle{
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .hero-title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .project-image{
+        max-width: 100%;
+        width: 100%;
+        max-width: 400px;
+    }
+    .project-title{
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .project-time, .project-cost{
+        flex-basis: 100%;
+        margin-bottom: 35px;
+    }
+    .projects-pagination{
+        margin-top: 30px;
+    }
+    .section-title{
+        font-size: 19px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .contacts{
+        padding-bottom: 50px;
+    }
+    .hero{
+        padding-bottom: 20px;
+    }
+    .features{
+        padding-bottom: 10px;
+    }
+    .projects{
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 375px){
+    .project-image{
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 360px){
+    .hero-avatar{
+        border-width: 5px;
+        height: 250px;
+        width: 250px;
+    }
+}
+/* responsive */
