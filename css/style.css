@@ -200,6 +200,9 @@ body{
     align-items: flex-start;
     display: flex;
 }
+.project-feedback{
+    min-width: 550px;
+}
 .project-time, .project-cost{
     flex-basis: 50%;
     margin-bottom: 45px;
